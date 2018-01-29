@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    @package         Surveyforce
+    @version           1.2-modified
+    @copyright       JooPlce Team, 臺北市政府資訊局, Copyright (C) 2016. All rights reserved.
+    @license            GPL-2.0+
+    @author            JooPlace Team, 臺北市政府資訊局- http://doit.gov.taipei/
+-->
+
+<form>
+    <fieldset>
+        <field name="id" type="hidden"/>
+
+		<field name="result_desc" type="editor" buttons="false" hide="pagebreak,readmore,testimonial" class="inputbox" filter="safehtml" label="結果說明" labelclass="control-label" required="true" />
+
+    </fieldset>
+</form>
